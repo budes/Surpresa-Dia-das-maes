@@ -1,0 +1,50 @@
+html {
+	background-color: rgb(30, 30, 30);
+
+	background: url('rosas.jpg');
+	background-size: 100vw 100vh;
+}
+
+#cartao {
+	color: rgb(240, 240, 240);
+	background-color: rgba(40, 40, 40, 0.7);
+	transition: all 0.95s;
+} 
+
+#cartao::before {
+	transform: scale(0);
+}
+
+
+#pg-2 {	
+	transform: translateX(-26.5%);
+}
+
+img {
+	margin-top: 2rem;
+
+	width: 4rem;
+	filter: grayscale(100%) invert(100%) brightness(5);
+
+	position: relative;
+
+	float: left;
+	left: 50%;
+
+	transform: translateX(-50%);
+
+}
+
+#mensagem {
+	position: relative;
+
+	float: left;
+	left: -1.75rem;
+
+	margin-top: 7.5rem;
+	width: 20rem;
+}
+
+#mensagem h3 {
+	text-align: center;
+}

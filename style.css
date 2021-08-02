@@ -1,0 +1,88 @@
+.block {
+	display: block;
+}
+
+html {
+	background-color: rgb(30, 30, 30);
+
+	/*background-image: url('pordosol.jpg');*/
+	background: linear-gradient(to top, rgb(40, 10, 10), rgb(150, 20, 20));
+	/*background-repeat: no-repeat;*/
+	background-size: 100% 100vh;
+
+	font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+}
+
+/* A ÁREA DO LOGIN */
+.bloco-principal {
+	box-shadow: 0 7px 20px 0 rgba(0,0,0,0.6), 0 5px 25px 0 rgba(0,0,0,0.4);
+
+	border-radius: 10px;
+	background-color: rgb(240, 240, 240);
+
+	width: 25rem;
+	height: 30rem;
+
+	position: relative;
+
+	float: left;
+	left: 50%;
+	transform: translate(-50%, 14%);
+}
+
+
+/* ESTRUTURA DO LOGIN */
+.titulo {
+	width: 100%;
+
+	position: relative;
+
+	left: 50%;
+	transform: translateX(-13%);
+}
+
+.login-page {
+	padding-top: 4rem;
+	padding-left: 4.5rem;
+}
+
+input {
+	margin-top: 1.5rem; 
+	padding-top: 0.5rem;
+
+	font-size: 1.25rem;
+	
+	border: 0;
+	border-bottom: 0.15rem solid black;
+	
+	width: 15rem;
+	transition: border 0.20s;
+}
+
+input:hover {
+	border: 0.15rem solid black;
+}
+
+
+a { text-decoration: none; }
+
+button { 
+	font-size: 1.5rem;
+	margin-top: 5rem;
+
+	position: relative;
+	left: 2.5rem;
+
+	width: 10rem;
+	height: 3rem;
+
+	border-radius: 1rem;
+	border: 0.15rem solid rgb(30, 30, 30);
+
+	transition: background 0.20s, color 0.20s;
+}
+
+button:hover {
+	background-color: rgb(30, 30, 30);
+	color: rgb(240, 240, 240);
+}
